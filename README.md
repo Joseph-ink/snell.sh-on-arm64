@@ -1,3 +1,5 @@
+#Snell on ARM64
+
 Debian & Ubuntu 用户请运行
 
 ```
