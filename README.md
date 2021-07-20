@@ -1,4 +1,4 @@
-# Snell on ARM64
+# ARM64平台Snell一键安装脚本
 
 ## 主要用于甲骨文云Oracle ARM64 Ubuntu系统
 
