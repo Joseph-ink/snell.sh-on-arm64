@@ -14,7 +14,7 @@ Snell默认使用TLS加密，使用前需对服务器ip设定域名解析并完�
 Debian & Ubuntu 用户请运行
 
 ```
-wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/azurerayID/snell.sh/master/snell.sh
+wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Joseph-ink/snell.sh/master/snell.sh
 chmod +x snell.sh
 ./snell.sh
 ```
@@ -26,10 +26,12 @@ chmod +x snell.sh
 
 ```
 vi /etc/snell/snell-server.conf
-systemctl restart snell
 ```
 
-自行修改。
+自行修改并重启
+```
+systemctl restart snell
+```
 
 查看运行状态：
 
@@ -40,7 +42,7 @@ systemctl status snell
 卸载方法：
 
 ```
-wget --no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/azurerayID/snell.sh/master/uninstall-snell.sh
+wget --no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/Joseph-ink/snell.sh/master/uninstall-snell.sh
 chmod +x uninstall-snell.sh
 ./uninstall-snell.sh
 ```
