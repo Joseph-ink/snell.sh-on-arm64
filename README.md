@@ -1,13 +1,14 @@
-# ARM64平台Snell一键安装脚本
+## ARM64平台Snell一键安装脚本
 
-## 主要用于甲骨文云Oracle ARM64 Ubuntu系统
+### 主要用于甲骨文云Oracle ARM64 Ubuntu系统
 
 Snell默认使用TLS加密，使用前需对服务器ip设定域名解析并完全使用SSL/TLS加密；
 
-### 推荐使用以下脚本开放全部端口，然后使用mack-a一键脚本开启bbr加速，申请证书并架设代理协议（包含Vmess、Vless、Trojan）；
+#### 推荐使用以下脚本开放全部端口，然后使用mack-a一键脚本开启bbr加速，申请证书并架设代理协议（包含Vmess、Vless、Trojan）；
 
-- [YG-tsj/CFWarp-Pro](https://github.com/YG-tsj/CFWarp-Pro)
-
+```
+bash <(curl -sL haoduck.com/sh/oracleopen.sh)
+```
 
 实际测试在甲骨文云上使用Snell没有太多速度优势，仅仅多一种协议支持；
 
