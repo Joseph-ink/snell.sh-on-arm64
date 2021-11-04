@@ -1,4 +1,4 @@
-## ARM64平台Snell一键安装脚本
+## ARM64平台Snell一键安装脚本,已更新支持至最新2.0.6版
 
 ### 主要用于甲骨文云Oracle ARM64 Ubuntu系统
 
