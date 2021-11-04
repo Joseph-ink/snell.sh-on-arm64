@@ -4,10 +4,16 @@
 
 Snell默认使用TLS加密，使用前需对服务器ip设定域名解析并完全使用SSL/TLS加密；
 
-#### 推荐使用以下脚本开放全部端口，然后使用mack-a一键脚本开启bbr加速，申请证书并架设代理协议（包含Vmess、Vless、Trojan）；
+#### 推荐使用以下脚本开放全部端口
 
 ```
 bash <(curl -sL haoduck.com/sh/oracleopen.sh)
+```
+
+#### 然后使用mack-a一键脚本开启bbr加速，申请证书并架设代理协议（包含Vmess、Vless、Trojan）；
+
+```
+wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
 
 实际测试在甲骨文云上使用Snell没有太多速度优势，仅仅多一种协议支持；
