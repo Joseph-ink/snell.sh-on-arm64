@@ -18,7 +18,7 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-
 
 实际测试在甲骨文云上使用Snell没有太多速度优势，仅仅多一种协议支持；
 
-ARM64架构  Debian & Ubuntu 用户请运行
+#### ARM64架构  Debian & Ubuntu 用户请运行
 
 ```
 wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Joseph-ink/snell.sh-on-arm64/master/snell.sh
@@ -26,7 +26,7 @@ chmod +x snell.sh
 ./snell.sh
 ```
 
-x86架构  Debian & Ubuntu 用户请运行
+#### x86架构  Debian & Ubuntu 用户请运行
 
 ```
 wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Joseph-ink/Useful-tools/main/snell.sh
