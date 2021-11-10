@@ -35,7 +35,13 @@ chmod +x snell.sh
 ./snell.sh
 ```
 
+#### （测试）x86架构 ipv6用户  Debian & Ubuntu 用户请运行
 
+```
+wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Joseph-ink/snell.sh-on-arm64/master/snell_amd64_ipv6.sh
+chmod +x snell.sh
+./snell.sh
+```
 
 
 首次安装默认端口号13254，如需修改请
