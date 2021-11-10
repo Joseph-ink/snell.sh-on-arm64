@@ -29,7 +29,7 @@ chmod +x snell.sh
 #### x86架构  Debian & Ubuntu 用户请运行
 
 ```
-wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Joseph-ink/Useful-tools/main/snell.sh
+wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Joseph-ink/snell.sh-on-arm64/master/snell_amd64.sh
 chmod +x snell.sh
 ./snell.sh
 ```
