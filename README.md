@@ -21,7 +21,7 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-
 #### ARM64架构  Debian & Ubuntu 用户请运行
 
 ```
-wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Joseph-ink/snell.sh-on-arm64/master/snell.sh
+wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Joseph-ink/snell.sh-on-arm64/master/snell_arm64.sh
 chmod +x snell.sh
 ./snell.sh
 ```
