@@ -1,5 +1,5 @@
 ## Snell一键安装脚本,支持x86、ARM64架构,支持ipv4，ipv6（测试）网络；
-#### （稳定版更新至v2.0.6,预发布版更新至v2.1.0beta1）
+#### （稳定版更新至v2.0.6,预发布版更新至v2.1.0 beta1）
 
 ### 主要用于甲骨文云Oracle ARM64 Ubuntu系统
 
@@ -19,7 +19,7 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-
 
 实际测试在甲骨文云上使用Snell没有太多速度优势，仅仅多一种协议支持；
 
-#### ARM64架构  Debian & Ubuntu 用户请运行
+#### ARM64  Debian & Ubuntu 请运行
 
 ```
 wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Joseph-ink/snell.sh-on-arm64/master/snell_arm64.sh
@@ -27,7 +27,7 @@ chmod +x snell.sh
 ./snell.sh
 ```
 
-#### x86架构  Debian & Ubuntu 用户请运行
+#### x86  Debian & Ubuntu 请运行
 
 ```
 wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Joseph-ink/snell.sh-on-arm64/master/snell_amd64.sh
@@ -35,7 +35,7 @@ chmod +x snell.sh
 ./snell.sh
 ```
 
-#### （测试）x86架构 ipv6用户  Debian & Ubuntu 用户请运行
+#### （测试）x86 ipv6  Debian & Ubuntu 请运行
 
 ```
 wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Joseph-ink/snell.sh-on-arm64/master/snell_amd64_ipv6.sh
