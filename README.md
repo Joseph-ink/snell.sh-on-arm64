@@ -1,5 +1,5 @@
-## Snell一键安装脚本,支持x86、ARM64架构,支持ipv4，ipv6（测试）网络；
-#### （稳定版更新至v2.0.6,预发布版更新至v2.1.0 beta1）
+## Snell一键安装脚本,支持x86、ARM64架构,支持ipv4，ipv6网络；
+#### Snell Server版本更新至v3.0.0 RC2
 
 ### 主要用于甲骨文云Oracle ARM64 Ubuntu系统
 
@@ -35,7 +35,7 @@ chmod +x snell.sh
 ./snell.sh
 ```
 
-#### （测试）x86 ipv6  Debian & Ubuntu 请运行
+#### x86 ipv6  Debian & Ubuntu 请运行
 
 ```
 wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Joseph-ink/snell.sh-on-arm64/master/snell_amd64_ipv6.sh
@@ -68,4 +68,10 @@ systemctl status snell
 wget --no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/Joseph-ink/snell.sh/master/uninstall-snell.sh
 chmod +x uninstall-snell.sh
 ./uninstall-snell.sh
+```
+
+提高内核缓冲大小可以显著提升UDP性能表现
+```
+sysctl -w net.core.rmem_max=26214400
+sysctl -w net.core.rmem_default=26214400
 ```
