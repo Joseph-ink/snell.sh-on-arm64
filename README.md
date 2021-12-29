@@ -1,7 +1,14 @@
 ## Snell一键安装脚本,支持x86、ARM64架构,支持ipv4，ipv6网络；
-#### Snell Server版本更新至v3.0.0 RC2
+### Snell Server版本更新至v3.0.0 RC2
 
-### 主要用于甲骨文云Oracle ARM64 Ubuntu系统
+#### 主要用于甲骨文云Oracle ARM64 Ubuntu系统
+
+建议直接DD系统，方便使用
+
+以下为Debian 11 64位，支持aarch64
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/InstallNET.sh && chmod +x InstallNET.sh && ./InstallNET.sh -d 11 -v 64 -p "自定义root密码" -port "自定义ssh端口"
+```
 
 Snell默认使用TLS加密，使用前需对服务器ip设定域名解析并完全使用SSL/TLS加密；
 
