@@ -1,5 +1,5 @@
 ## Snell一键脚本,支持x86、ARM64架构,支持ipv4，ipv6网络；
-### Snell Server版本更新至v3.0.0 RC2
+### Snell Server版本更新至v3.0.1正式版
 
 #### 甲骨文云Oracle ARM64建议安装Ubuntu，然后直接DD系统，方便使用
 
